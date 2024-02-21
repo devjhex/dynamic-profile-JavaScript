@@ -1,0 +1,28 @@
+{
+    "currentUser": {
+        "image": { 
+          "png": "./images/devjhex.jpg"
+        },
+        "username": "Jonah Ssegawa"
+    },
+    "employees" : [
+        {
+            "id": 1,
+            "location": "London, UK",
+            "position": "Product Manager",
+            "user": {
+              "image":"./images/johnDoe.png",
+              "username": "John Doe"
+            }
+        },
+        {
+            "id": 2,
+            "location": "Ethiopia",
+            "position": "Tech Lead",
+            "user": {
+              "image": "./images/rekikMarissa.png",
+              "username": "Rekik Marissa"
+            }
+        }
+    ]
+}

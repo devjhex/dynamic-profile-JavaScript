@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="duration-[.5s]">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Primary Meta tags. -->
+     <meta
+     name="title" 
+     content="Dynamic Profile | devjhex"
+   >
+   <meta
+     name="description" 
+     content="Dynamic Profile using Vanilla JavaScript utilizing MVC Design Patterns"
+   >
+   <meta
+     name="author"
+     content="Jonah Ssegawa"
+   >
+   <meta
+     name="keywords"
+     content="Dynamic Profile, MVC pattern, Full-stack CRUD app, DOM manipulation, Responsive design, Frontend development, JavaScript project"
+   >
+
+    <link rel="stylesheet" href="output.css">
+    <title>Dynamic Profile</title>
+</head>
+<body class="p-4 bg-[#c9c9c9] dark:bg-black duration-[.5s] transition-all flex flex-col items-center">
+    <div class="max-w-[700px] mt-3 w-[95%] flex items-center justify-end mr-[4rem] p-4">
+        <div class="w-[120px] h-[25px] flex items-center justify-center gap-[.5rem]">
+         <div class="w-max h-max bg-red-700">
+          <input type="checkbox" id="checkbox" class="appearance-none transition-all cursor-pointer flex items-center justify-center relative before:transition-all  before:content-[''] before:absolute before:right-full mr-2 before:rounded-full before:bg-black  checked:before:bg-white before:w-[2rem] before:h-[1.2rem] after:content-[''] after:transition-all after:absolute after:w-[25px] after:h-[25px] after:rounded-full after:bg-black after:duration-[.2s] after:-translate-x-full checked:after:-translate-x-0">
+         </div>
+          <label for="checkbox" class="text-black  dark:text-[#adacac] transition-all text-darkLightGray text-[1rem] font-semibold cursor-pointer">Dark Mode</label>
+          </div>
+    </div>
+    <main class="flex flex-col  md:flex-row items-center justify-center gap-[2rem] mt-4 employees">
+    </main>
+<script src="./main.js"></script>
+</body>
+</html>
