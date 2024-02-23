@@ -8,7 +8,7 @@ Dynamic Profile
 
 <h2>
 
-[🚀Live Site](<!-- link to the site -->) || devjhex
+[🚀Live Site](https://devjhex-dynamic-profile-javascript.netlify.app/) || devjhex
 
 </h2>
 </div>
